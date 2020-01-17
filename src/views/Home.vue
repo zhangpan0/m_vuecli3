@@ -1,7 +1,9 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="Welcome"/>
+    <div class="mian">
+      这是主要main
+    </div>
   </div>
 </template>
 
@@ -16,3 +18,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+  .main {
+    background:skyblue;
+  }
+</style>
